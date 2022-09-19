@@ -9,16 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@tanstack/react-table": "^8.5.13",
+    "chart.js": "^3.9.1",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-tooltip": "^4.2.21",
+    "reaviz": "^13.1.8",
+    "styled-components": "^5.3.5",
+    "use-resize-observer": "^9.0.2"
   },
   "devDependencies": {
     "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
+    "next-transpile-modules": "^9.0.0",
     "typescript": "4.8.3"
   }
 }
